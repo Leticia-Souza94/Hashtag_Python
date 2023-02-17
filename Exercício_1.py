@@ -1,4 +1,4 @@
-codigo_produto = input("Digite o código do produto: ")
+codigo_produto = input("Digite o código do produto: ").upper()
 
 if ("BAC" in codigo_produto):
     print("O produto é alcoolico")
