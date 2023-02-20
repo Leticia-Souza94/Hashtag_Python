@@ -6,7 +6,7 @@
 <br>
 ## Exercício 1
 ### Enunciado do exercício:
-O Exercício 1 abordava inputs e strings
+abordagem de inputs e strings
 
 A maioria das empresas trabalham com um Código para cada produto que possuem. A Hashtag&Drink, por exemplo, tem mais de 1.000 produtos e possui um código para cada produto. Ex: <br>
 <br>
