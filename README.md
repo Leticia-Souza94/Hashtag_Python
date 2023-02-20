@@ -41,7 +41,7 @@ codigo_produto = input("Digite o código do produto: ").upper()<br>
 
 4) Podemos tambem inserir a função if e else para retornar as respostas "O produto é alcoolico" e "O produto não é alcoolico". Caso o código não possua as iniciais "BEB" e "BAC", poderá retornar a resposta "Código Inválido!".
 
-codigo_produto = input("Digite o código do produto: ").upper()<br>
+codigo_produto = input("Digite o código do produto: ").upper()
 
 if ("BAC" in codigo_produto):<br>
     print("O produto é alcoolico")<br>
