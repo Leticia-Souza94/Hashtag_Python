@@ -50,6 +50,6 @@ elif ("BEB" in codigo_produto):<br>
 
 else:<br>
     print("Código Inválido!")<br>
-    
+
 [Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)
 
