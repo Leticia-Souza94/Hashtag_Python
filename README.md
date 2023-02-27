@@ -1,7 +1,7 @@
 # Curso de Python com a Hashtag Treinamentos
 ## Índice
-[Exercício 1](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)<br><br>
-[Exercício 2](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_2.py)<br><br>
+[Exercício 1](https://github.com/Leticia-Souza94/Hashtag_Python#exerc%C3%ADcio-1)<br><br>
+[Exercício 2](https://github.com/Leticia-Souza94/Hashtag_Python#exerc%C3%ADcio-2)<br><br>
 <br>
 ## Exercício 1
 ### Enunciado do exercício:
