@@ -2,7 +2,7 @@
 ## Índice
 [Exercício 1](https://github.com/Leticia-Souza94/Hashtag_Python#exerc%C3%ADcio-1)<br><br>
 [Exercício 2](https://github.com/Leticia-Souza94/Hashtag_Python#exerc%C3%ADcio-2)<br><br>
-[Exercício 3]()<br><br>
+[Exercício 3](https://github.com/Leticia-Souza94/Hashtag_Python#exerc%C3%ADcio-3)<br><br>
 <br>
 ## Exercício 1
 ### Enunciado do exercício:
@@ -107,6 +107,7 @@ print(f"O valor total após o retorno sem a cobrança das taxas é de R$ {invest
 '''
     
 [Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_2.py)
+<br>
 <br>
 <br>
 <br>
