@@ -40,15 +40,17 @@ codigo_produto = input("Digite o código do produto: ").upper()<br>
 
 4) Podemos tambem inserir a função if e else para retornar as respostas "O produto é alcoolico" e "O produto não é alcoolico". Caso o código não possua as iniciais "BEB" e "BAC", poderá retornar a resposta "Código Inválido!".
 
-codigo_produto = input("Digite o código do produto: ").upper()
+codigo_produto = input("Digite o código do produto: ").upper()<br>
 
-if ("BAC" in codigo_produto):<br>
-    print("O produto é alcoolico")<br>
-elif ("BEB" in codigo_produto):<br>
-    print("O produto não é alcoolico")<br>
+'''
 
-else:<br>
-    print("Código Inválido!")<br>
+    if ("BAC" in codigo_produto):
+        print("O produto é alcoolico")
+    elif ("BEB" in codigo_produto):
+        print("O produto não é alcoolico")
+    else:
+        print("Código Inválido!")
+'''
 
 [Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)
 <br>
@@ -86,16 +88,19 @@ print(f"O valor total após o retorno sem a cobrança das taxas é de R$ {invest
 
 4) Trabalhei com if e else para adicionar as condições. Podem ser cobradas taxas de 2%, 4% ou nenhuma taxa, seguindo as condições do enunciado:
 
-if (retorno > meta):<br>
-    if (retorno > 0.20):<br>
-        taxa = 0.04<br>
-        print(f"Será cobrado uma taxa de 4% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")<br>
-    else:<br>
-        taxa = 0.02<br>
-        print(f"Será cobrado uma taxa de 2% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")<br>
-else:<br>
-    taxa = 0<br>
-    print("Não será cobrado uma taxa!")<br>
+'''
+
+    if (retorno > meta):
+        if (retorno > 0.20):
+            taxa = 0.04
+            print(f"Será cobrado uma taxa de 4% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")
+        else:
+            taxa = 0.02
+            print(f"Será cobrado uma taxa de 2% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")
+    else:
+        taxa = 0
+        print("Não será cobrado uma taxa!")
+'''
     
 [Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_2.py)
 <br>
