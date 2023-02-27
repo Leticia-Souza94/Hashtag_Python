@@ -1,8 +1,7 @@
 # Curso de Python com a Hashtag Treinamentos
 ## Índice
-[Exercício 1](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)
-<br>
-<br>
+[Exercício 1](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)<br><br>
+[Exercício 2](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_2.py)<br><br>
 <br>
 ## Exercício 1
 ### Enunciado do exercício:
@@ -52,4 +51,54 @@ else:<br>
     print("Código Inválido!")<br>
 
 [Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_1.py)
+<br>
+<br>
+<br>
+<br>
+## Exercício 2
+### Enunciado do exercício:
+abordagem sobre if e else
 
+Digamos que você precisa criar um programa para um fundo de investimentos conseguir avaliar o resultado de uma carteira de ações e o quanto de taxa deverá ser pago.<br><br>
+
+- O fundo se compromete a entregar no mínimo 5% de retorno ao ano.<br>
+- Caso o fundo não consiga entregar os 5% de retorno, ele não pode cobrar taxa dos seus investidores.<br>
+- Caso o fundo consiga entregar mais de 5% de retorno, ele irá cobrar 2% de taxa dos seus investidores.<br>
+- Caso o fundo consiga mais de 20% de retorno, ele irá cobrar 4% de taxa dos seus investidores.<br>
+<br>
+<br>
+### Resolução do exercício:
+
+1) Inciei escrevendo uma linha que capturasse a resposta sobre o valor investido:
+
+investimento = float(input("Digite o valor investido: "))
+
+2) Criei variáveis para meta, taxa e retorno:
+
+meta = 0.05
+taxa = 0
+retorno = 0.04
+
+3) Calculei o valor investido * o retorno e somei o resultado ao valor investido, assim conseguimos saber o valor total após o retorno (sem descontar as taxas):
+
+investimento_retorno = (investimento * retorno) + investimento
+print(f"O valor total após o retorno sem a cobrança das taxas é de R$ {investimento_retorno}")
+
+4) Trabalhei com if e else para adicionar as condições. Podem ser cobradas taxas de 2%, 4% ou nenhuma taxa, seguindo as condições do enunciado:
+
+if (retorno > meta):<br>
+    if (retorno > 0.20):<br>
+        taxa = 0.04<br>
+        print(f"Será cobrado uma taxa de 4% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")<br>
+    else:<br>
+        taxa = 0.02<br>
+        print(f"Será cobrado uma taxa de 2% sobre o rendimento. Total de R${(investimento * retorno) * taxa}")<br>
+else:<br>
+    taxa = 0<br>
+    print("Não será cobrado uma taxa!")<br>
+    
+[Clique Aqui para acessar o código desse exercício](https://github.com/Leticia-Souza94/Hashtag_Python/blob/main/Exerc%C3%ADcio_2.py)
+<br>
+<br>
+<br>
+<br>
